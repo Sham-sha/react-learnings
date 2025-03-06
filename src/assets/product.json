@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Fresh Apples",
+      "price": 150,
+      "image": "https://example.com/images/apple.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Organic Bananas",
+      "price": 80,
+      "image": "https://example.com/images/banana.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Premium Mangoes",
+      "price": 200,
+      "image": "https://example.com/images/mango.jpg"
+    }
+  ]
+  
