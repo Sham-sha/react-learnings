@@ -1,21 +1,84 @@
-[
+{
+  "products": [
     {
-      "id": 1,
-      "name": "Fresh Apples",
-      "price": 150,
-      "image": "https://example.com/images/apple.jpg"
+      "name": "iPhone 13 Pro - Transparent",
+      "price": "LKR 499",
+      "image_url": "https://media.istockphoto.com/id/2182049278/photo/brown-magsafe-case-and-magsafe-wallet-attached-to-iphone-13-pro-on-blue-background.jpg?s=1024x1024&w=is&k=20&c=2iTPajA3yA02tnzRiZofTeDmQfoeiF5fCUag-9Vts4s="
     },
     {
-      "id": 2,
-      "name": "Organic Bananas",
-      "price": 80,
-      "image": "https://example.com/images/banana.jpg"
+      "name": "Samsung S23+ - Transparent",
+      "price": "LKR 799",
+      "image_url": "https://your-image-host.com/samsung-s23plus-transparent.jpg"
     },
     {
-      "id": 3,
-      "name": "Premium Mangoes",
-      "price": 200,
-      "image": "https://example.com/images/mango.jpg"
+      "name": "iPhone 14 - Transparent with magsafe",
+      "price": "LKR 799",
+      "image_url": "https://your-image-host.com/iphone14-transparent-magsafe.jpg"
+    },
+    {
+      "name": "Pixel 7 Pro - Transparent Wireless",
+      "price": "LKR 599",
+      "image_url": "https://your-image-host.com/pixel7pro-transparent-wireless.jpg"
+    },
+    {
+      "name": "Pixel 6a - Matte Black",
+      "price": "LKR 499",
+      "image_url": "https://your-image-host.com/pixel6a-matte-black.jpg"
+    },
+    {
+      "name": "Pixel 6a",
+      "price": "LKR 399",
+      "image_url": "https://your-image-host.com/pixel6a.jpg"
+    },
+    {
+      "name": "iPhone 14 - Transparent with magsafe",
+      "price": "LKR 799",
+      "image_url": "https://your-image-host.com/iphone14-transparent-magsafe.jpg"
+    },
+    {
+      "name": "Pixel 7 Pro - Transparent Wireless",
+      "price": "LKR 599",
+      "image_url": "https://your-image-host.com/pixel7pro-transparent-wireless.jpg"
+    },
+    {
+      "name": "iPhone 13 Pro - Transparent",
+      "price": "LKR 499",
+      "image_url": "https://your-image-host.com/iphone13pro-transparent.jpg"
+    },
+    {
+      "name": "Samsung S23+ - Transparent",
+      "price": "LKR 799",
+      "image_url": "https://your-image-host.com/samsung-s23plus-transparent.jpg"
+    },
+    {
+      "name": "Pixel 6a - Transparent",
+      "price": "LKR 599",
+      "image_url": "https://your-image-host.com/pixel6a-transparent.jpg"
+    },
+    {
+      "name": "Pixel 7 Pro - Transparent Wireless",
+      "price": "LKR 599",
+      "image_url": "https://your-image-host.com/pixel7pro-transparent-wireless.jpg"
+    },
+    {
+      "name": "iPhone 13 Pro - Transparent",
+      "price": "LKR 499",
+      "image_url": "https://your-image-host.com/iphone13pro-transparent.jpg"
+    },
+    {
+      "name": "Samsung S23+ - Transparent",
+      "price": "LKR 799",
+      "image_url": "https://your-image-host.com/samsung-s23plus-transparent.jpg"
+    },
+    {
+      "name": "iPhone 14 - Transparent with magsafe",
+      "price": "LKR 799",
+      "image_url": "https://your-image-host.com/iphone14-transparent-magsafe.jpg"
+    },
+    {
+      "name": "Pixel 7 Pro - Transparent Wireless",
+      "price": "LKR 599",
+      "image_url": "https://your-image-host.com/pixel7pro-transparent-wireless.jpg"
     }
   ]
-  
+}

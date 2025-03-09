@@ -1,20 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './Navbar.css'
+import './Navbar.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Navbar() {
   return (
-    <div className="navbar">
-      <div> <Link to="/">Home</Link> </div>
-      <div> <Link to="/about">About</Link> </div>
-      <div> <Link to="/dashboard">Dashboard</Link> </div>
-      <div> <Link to="/settings">Settings</Link> </div>
-      <div> <Link to="/props">Props</Link> </div>
-      <div> <Link to="/reg">Reg</Link> </div>
-      <div> <Link to="/context-api">Context API</Link> </div> 
-      <div> <Link to="/problem6">Problem_6</Link> </div> 
-
-    </div>
+    <nav className="custom-navbar">
+      <div className="container">
+        <ul className="nav-list">
+          <li><Link to="/" className="nav-link">Home</Link></li>
+          <li><Link to="/shop-all" className="nav-link">Shop All</Link></li>
+          <li><Link to="/dashboard" className="nav-link">Dashboard</Link></li>
+          <li><Link to="/" className="nav-link brand"><strong>Mocom📱</strong></Link></li>
+          <li><Link to="/about" className="nav-link">About Us</Link></li>
+          
+        </ul>
+      </div>
+    </nav>
   );
 }
 

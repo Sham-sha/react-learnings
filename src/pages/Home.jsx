@@ -1,37 +1,20 @@
+// React hook = Special function that allows functional components
+//                         to use React features without writing class components 
+//                         (useState, useEffect, useContext, useReducer, and more...)                
+
+// useState() = A React hook that allows the creation of a stateful variable
+//                       AND a setter function to update its value in the Virtual DOM.
+//                       [name, setName]
+
+
 import React, { useState } from "react";
 import "./styles.css";
 
 function Home() {
   // let count = 0;
 
-  let [count, setCount] = useState(0);
-  function increase() {
-    setCount((preCount) => preCount + 1);
-    setCount((preCount) => preCount + 1);
-  }
-
-  function decrease() {
-    setCount((preCount) => preCount - 1);
-  }
-
-  function reset() {
-    setCount((count = 0));
-  }
-
-  let p = `count is ${count}`;
-
-  if (count > 10) {
-    p = "more then 10";
-  }
-
   return (
     <div>
-      <div className="div">Counter App</div>
-      <h3>{count}</h3>
-      <button onClick={increase}>Increase</button>
-      <button onClick={reset}>Reset</button>
-      <button onClick={decrease}>Decrease</button>
-      <p>{p}</p>
     </div>
   );
 }
